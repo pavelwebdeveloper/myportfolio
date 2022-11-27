@@ -179,7 +179,10 @@ main {
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
     .about-info .school h3 {
-      height: 3rem; }
+      height: 3rem;
+      padding-bottom: 0.5em; }
+      .about-info .school h3 .school-link {
+        text-decoration: underline; }
 
 .projects {
   display: grid;
@@ -242,7 +245,9 @@ main {
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  p.school-info {
+    padding-top: 3em; } }
 
 @media screen and (max-width: 768px) {
   main {
