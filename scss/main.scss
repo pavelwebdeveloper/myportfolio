@@ -141,6 +141,7 @@ main {
     display: grid;
     grid-gap: 0.7rem;
     grid-template-columns: repeat(3, 1fr);
+    padding: 1em 0 2em 0;
 
     img {
         width: 100%;
