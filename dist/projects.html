@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="css/main.css">
     <title>View My Projects</title>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CGSPJH1YG6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CGSPJH1YG6');
+</script>
 <body>
     <header>
         <div class="menu-btn">
@@ -53,21 +62,33 @@
         My <span class="text-secondary">Projects</span>
     </h1>
     <h2 class="sm-heading">
-        Check out some of my projects...
+        This is some of what I coded. I coded both the front-end and the back-end. I also set up the databases. Some of the websites get data through API...
     </h2>
     <div class="projects">
         <div class="item">
-            <a href="https://pavelwebdeveloper.github.io/assignments/weathersite/index.html" target="_blank">
+            
+                <div class="project-tooltip">
+                <a href="https://pavelwebdeveloper.github.io/assignments/weathersite/home.html" target="_blank">
                 <img src="img/projects/project1.jpg" alt="Project">
-            </a>
-            <a href="https://pavelwebdeveloper.github.io/assignments/weathersite/index.html" target="_blank" class="btn-light">
+                    </a>
+                    
+                      
+            
+            <a href="https://pavelwebdeveloper.github.io/assignments/weathersite/home.html" target="_blank" class="btn-light">
                 <i class="fas fa-eye"></i> Project
             </a>
+            
             <a href="https://github.com/pavelwebdeveloper/pavelwebdeveloper.github.io/tree/master/assignments/weathersite" target="_blank" class="btn-dark">
                     <i class="fab fa-github"></i> Github
                 </a>
+                <span class="tooltiptext">This is a static website that is not connected with a database but uses API to retrieve 
+                    data about weather. To create it I used HTML, CSS and JavaScript</span>
+            </div>
+
+                
         </div>
         <div class="item">
+            <div class="project-tooltip">
                 <a href="https://pavelwebdeveloper.github.io/assignments/bicyclesmountainspoke/home.html" target="_blank">
                     <img src="img/projects/project2.jpg" alt="Project">
                 </a>
@@ -77,8 +98,12 @@
                 <a href="https://github.com/pavelwebdeveloper/pavelwebdeveloper.github.io/tree/master/assignments/bicyclesmountainspoke" target="_blank" class="btn-dark">
                         <i class="fab fa-github"></i> Github
                     </a>
+                    <span class="tooltiptext">This is a static website that is not connected with a database. The data about bicycles 
+                        and services are retrieved from a JSON file. To create it I used HTML, CSS and JavaScript</span>
+                </div>
             </div>
             <div class="item">
+                <div class="project-tooltip">
                     <a href="http://pvssite.freeoda.com/acme/index.php" target="_blank">
                         <img src="img/projects/project3.jpg" alt="Project">
                     </a>
@@ -88,52 +113,13 @@
                     <a href="https://github.com/pavelwebdeveloper/acme" target="_blank" class="btn-dark">
                             <i class="fab fa-github"></i> Github
                         </a>
+                        <span class="tooltiptext">This is a dynamic website that is connected to a MariaDB database. To create 
+                            it I used HTML, CSS, JavaScript and core PHP</span>
+                    </div>
                 </div>
-                <div class="item">
-                        <a href="https://github.com/pavelwebdeveloper/java-programs/tree/master/DakarRaceProject" target="_blank">
-                            <img src="img/projects/project4.jpg" alt="Project">
-                        </a>
-                        <a href="https://github.com/pavelwebdeveloper/java-programs/tree/master/DakarRaceProject" target="_blank" class="btn-light">
-                            <i class="fas fa-eye"></i> Project
-                        </a>
-                        <a href="https://github.com/pavelwebdeveloper/java-programs/tree/master/DakarRaceProject" target="_blank" class="btn-dark">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                    </div>
-                <div class="item">
-                        <a href="https://travel-in-ukraine-app.herokuapp.com" target="_blank">
-                            <img src="img/projects/project5.jpg" alt="Project">
-                        </a>
-                        <a href="https://travel-in-ukraine-app.herokuapp.com" target="_blank" class="btn-light">
-                            <i class="fas fa-eye"></i> Project
-                        </a>
-                        <a href="https://github.com/pavelwebdeveloper/travel-in-ukraine-app" target="_blank" class="btn-dark">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                    </div>
+                
                     <div class="item">
-                        <a href="https://blooming-harbor-44367.herokuapp.com/shop_online/home.php" target="_blank">
-                            <img src="img/projects/project6.jpg" alt="Project">
-                        </a>
-                        <a href="https://blooming-harbor-44367.herokuapp.com/shop_online/home.php" target="_blank" class="btn-light">
-                            <i class="fas fa-eye"></i> Project
-                        </a>
-                        <a href="https://github.com/pavelwebdeveloper/cs313-php/tree/master/web/assignments" target="_blank" class="btn-dark">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                    </div>
-                    <div class="item">
-                        <a href="https://hot-dogs-test-app.herokuapp.com" target="_blank">
-                            <img src="img/projects/project7.jpg" alt="Project">
-                        </a>
-                        <a href="https://hot-dogs-test-app.herokuapp.com" target="_blank" class="btn-light">
-                            <i class="fas fa-eye"></i> Project
-                        </a>
-                        <a href="https://github.com/pavelwebdeveloper/hot-dogs-app" target="_blank" class="btn-dark">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                    </div>
-                    <div class="item">
+                        <div class="project-tooltip">
                         <a href="http://pavelportfolio.epizy.com/cars-ads/web/index.php" target="_blank">
                             <img src="img/projects/project8yii2.jpg" alt="Project">
                         </a>
@@ -143,8 +129,12 @@
                         <a href="https://github.com/pavelwebdeveloper/ad-app-on-yii2-framework" target="_blank" class="btn-dark">
                                 <i class="fab fa-github"></i> Github
                             </a>
+                            <span class="tooltiptext">This is a dynamic website connected with a MariaDB database. To create it I used 
+                                Yii2 PHP framework, some vanilla JavaScript and CSS</span>
+                        </div>
                     </div>
                     <div class="item">
+                        <div class="project-tooltip">
                         <a href="http://pvssite.freeoda.com/recipes/recipes.html" target="_blank">
                             <img src="img/projects/recipes.jpg" alt="Project">
                         </a>
@@ -154,9 +144,109 @@
                         <a href="https://github.com/pavelwebdeveloper/WDD-330/tree/main/recipes-app" target="_blank" class="btn-dark">
                                 <i class="fab fa-github"></i> Github
                             </a>
+                            <span class="tooltiptext">This is an SPA that retrieves data about menus from API. To create it I used HTML, 
+                                CSS and vanilla OOP JavaScript.</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="project-tooltip">
+                        <a href="http://pvssite.freeoda.com/webstore/index.php" target="_blank">
+                            <img src="img/projects/project6.jpg" alt="Project">
+                        </a>
+                        <a href="http://pvssite.freeoda.com/webstore/index.php" target="_blank" class="btn-light">
+                            <i class="fas fa-eye"></i> Project
+                        </a>
+                        <a href="https://github.com/pavelwebdeveloper/webstore" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+                            <span class="tooltiptext">This is a dynamic web store. To create it I used PHP, HTML, CSS, SCSS and some JavaScript. The data are stored in MariaDB and retrieved from it with SQL.</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="project-tooltip">
+                        <a href="https://frenchriviera-hmc3dcxc.b4a.run/" target="_blank">
+                            <img src="img/projects/french-riviera.jpg" alt="Project">
+                        </a>
+                        <a href="https://frenchriviera-hmc3dcxc.b4a.run/" target="_blank" class="btn-light">
+                            <i class="fas fa-eye"></i> Project
+                        </a>
+                        <a href="https://github.com/pavelwebdeveloper/french-riviera/tree/main" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+                            <span class="tooltiptext">This is a dynamic website. To create it I used Node.js, JavaScript, EJS, HTML, CSS. The data are stored in MongoDB.</span>
+                        </div>
                     </div>
     </div>
 
+    <h2 class="sm-heading">
+        Console and desktop apps
+    </h2>
+    <div class="projects">
+        <div class="item">
+            <div class="project-tooltip">
+                <a href="https://github.com/pavelwebdeveloper/java-programs/tree/master/DakarRaceProject" target="_blank">
+                    <img src="img/projects/project4.jpg" alt="Project">
+                </a>
+                <a href="https://github.com/pavelwebdeveloper/java-programs/tree/master/DakarRaceProject" target="_blank" class="btn-light">
+                    <i class="fas fa-eye"></i> Project
+                </a>
+                <a href="https://github.com/pavelwebdeveloper/java-programs/tree/master/DakarRaceProject" target="_blank" class="btn-dark">
+                        <i class="fab fa-github"></i> Github
+                    </a>
+                    <span class="tooltiptext">This is a console game application programmed with Java</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="project-tooltip">
+                    <a href="https://github.com/pavelwebdeveloper/CIT365-F2022-ShvetsPavlo-modified/tree/main/MegaDesk" target="_blank">
+                        <img src="img/projects/megadesk.jpg" alt="Project">
+                    </a>
+                    <a href="https://github.com/pavelwebdeveloper/CIT365-F2022-ShvetsPavlo-modified/tree/main/MegaDesk" target="_blank" class="btn-light">
+                        <i class="fas fa-eye"></i> Project
+                    </a>
+                    <a href="https://github.com/pavelwebdeveloper/CIT365-F2022-ShvetsPavlo-modified/tree/main/MegaDesk" target="_blank" class="btn-dark">
+                            <i class="fab fa-github"></i> Github
+                        </a>
+                        <span class="tooltiptext">This is a Windows Forms App (.NET Framework)</span>
+                    </div>
+                </div>
+            
+                <div class="item">
+                    <div class="project-tooltip">
+                        <a href="https://github.com/pavelwebdeveloper/pythoncode" target="_blank">
+                            <img src="img/projects/python_code_repository.png" alt="Project">
+                        </a>
+                        <a href="https://github.com/pavelwebdeveloper/pythoncode" target="_blank" class="btn-light">
+                            <i class="fas fa-eye"></i> Project
+                        </a>
+                        <a href="https://github.com/pavelwebdeveloper/pythoncode" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+                            <span class="tooltiptext">This is a repository with my Python code</span>
+                        </div>
+                    </div>
+    </div>
+
+    <h2 class="sm-heading">
+        Shell programming
+    </h2>
+    <div class="projects">
+        <div class="item">
+            <div class="project-tooltip">
+                <a href="https://github.com/pavelwebdeveloper/shell_programming/blob/main/rock-paper-scissors_game" target="_blank">
+                    <img src="img/projects/project4.jpg" alt="Project">
+                </a>
+                <a href="https://github.com/pavelwebdeveloper/shell_programming/blob/main/rock-paper-scissors_game" target="_blank" class="btn-light">
+                    <i class="fas fa-eye"></i> Project
+                </a>
+                <a href="https://github.com/pavelwebdeveloper/shell_programming/blob/main/rock-paper-scissors_game" target="_blank" class="btn-dark">
+                        <i class="fab fa-github"></i> Github
+                    </a>
+                    <span class="tooltiptext">This is the Rock Paper Scissors game</span>
+                </div>
+            </div>          
+    </div>
     
     </main>
 
