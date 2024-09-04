@@ -234,6 +234,10 @@ main {
       .boxes div:hover span {
         color: #000; }
 
+@media only screen and (max-width: 700px) {
+  .boxes div {
+    font-size: 1rem; } }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
