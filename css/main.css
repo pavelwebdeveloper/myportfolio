@@ -126,6 +126,10 @@ h1, h2, h3 {
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
 
+@media screen and (max-width: 480px) {
+  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+    font-size: 2rem; } }
+
 a {
   color: #fff;
   text-decoration: none; }
