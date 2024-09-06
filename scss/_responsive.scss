@@ -46,3 +46,15 @@
         }
     }
 }
+
+@mixin responsive_heading1{
+    @media screen and (max-width: 480px) {
+        h1, h2, h3 {
+    
+            &.lg-heading{
+                font-size:2rem;
+            }
+            
+        }
+      }
+}
