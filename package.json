@@ -1,17 +1,42 @@
 {
-  "name": "modern_portfolio",
-  "version": "1.0.0",
-  "description": "responsive portfolio website",
+  "name": "french-riviera-app",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "19.x"
+  },
   "main": "index.js",
-  "homepage": "https//pavelwebdeveloper.github.io/myportfolio",
+  "homepage": "https://github.com/pavelwebdeveloper/french-riviera",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "start": "node index.js",
+    "test": "node test.js",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Shvets Pavel",
-  "license": "MIT",
   "dependencies": {
-    "gh-pages": "^2.2.0",
-    "node-sass": "^8.0.0"
-  }
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.10",
+    "express": "^4.18.2",
+    "express-session": "^1.16.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.0",
+    "parse": "^6.1.1",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/parse": "^3.0.9",
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
