@@ -49,7 +49,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #373737;
+  background: rgb(55.25, 55.25, 55.25);
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -151,19 +151,17 @@ h1, h2, h3 {
 h1.lg-heading, h2.lg-heading, h3.lg-heading {
   font-size: 6rem;
 }
+h1.sm-heading, h2.sm-heading, h3.sm-heading {
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  background: rgba(73.1, 73.1, 73.1, 0.5);
+}
 
 @media screen and (max-width: 480px) {
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
     font-size: 2rem;
   }
 }
-
-h1.sm-heading, h2.sm-heading, h3.sm-heading {
-  margin-bottom: 2rem;
-  padding: 0.2rem 1rem;
-  background: rgba(73, 73, 73, 0.5);
-}
-
 a {
   color: #fff;
   text-decoration: none;
@@ -229,9 +227,10 @@ main#home h1 {
   grid-area: school3;
 }
 .about-info .school {
-  background: #515151;
+  background: rgb(80.75, 80.75, 80.75);
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid;
+  text-align: center;
 }
 @media only screen and (min-width: 1200px) {
   .about-info .school h3 {
@@ -305,6 +304,11 @@ main#home h1 {
   color: #000;
 }
 
+@media only screen and (max-width: 700px) {
+  .boxes div {
+    font-size: 1rem;
+  }
+}
 .btn, .btn-light, .btn-dark {
   display: block;
   padding: 0.5rem 1rem;
@@ -322,14 +326,14 @@ main#home h1 {
 }
 
 .btn-light {
-  background: #c4c4c4;
+  background: rgb(195.5, 195.5, 195.5);
   color: #333;
 }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: rgb(42.5, 42.5, 42.5);
   color: #fff;
   height: 60px;
 }
