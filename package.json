@@ -11,7 +11,9 @@
   "author": "Shvets Pavel",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "sass": "^1.90.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
